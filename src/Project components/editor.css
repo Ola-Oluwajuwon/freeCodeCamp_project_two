@@ -1,0 +1,25 @@
+.editor-header {
+    background-color: #4aa3a3;
+    padding: 0.3rem;
+    border: 1px solid #1d2f2f;
+    box-shadow: 1px 1px 10px 2px #3a5f5f;
+    color: black;
+    font-weight: bold;
+}
+
+.editor-header, #editor {
+    width: 700px;
+}
+
+#editor {
+    height: 200px;
+    background-color: #c0d8d8;
+    border: 1px solid #1d2f2f;
+    box-shadow: 1px 1px 10px 2px #3a5f5f;
+    border-top: none;
+    margin-bottom: 2rem;
+}
+
+#editor:focus {
+    outline: none;
+}
